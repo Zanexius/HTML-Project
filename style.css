@@ -1,0 +1,76 @@
+html {
+	font-family: "Franklin Gothic Medium";
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(to bottom right, gray, white);
+}
+
+h1 {
+	font-family: Forte;
+	font-size: 50px;
+	text-align: center;
+	margin:0;
+	padding: 60px;
+}
+
+h2 {
+	font-family: "Franklin Gothic Medium";
+	font-size: 25px;
+	padding: 15px 0px 15px 30px;
+	background-color: #003366;
+	color: white;
+	margin: 0;
+}
+
+#head-background {
+	font-size: 75px;
+	background-image: url("https://lh6.googleusercontent.com/proxy/L308lLj0adyITUEXJ9CaY099jgmHYfD2ovWm1rQ_JoynzUKCHVMn9bkw7vMULbQiXNqPuw7597RhFP7xpjVkCBmResQM8G9ELjh2XGcWSqvnVvU2uc4VQ4lu7C0WzG8t2mY8=s0-d");
+	background-color: #cccccc;
+	background-position: center;
+}
+
+#head-background a {
+	text-decoration: none;
+	color: black;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #1a1a1a;
+	position: sticky;
+	top: 0;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	font-family: Forte;
+	color: white;
+	text-align: center;
+	padding: 14px 20px 14px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #8c8c8c;
+}
+
+.active {
+	background-color: #003366;
+}
+
+iframe {
+	float: right;
+	display: inline;
+	padding:18px 20px;
+	margin: 0;
+}

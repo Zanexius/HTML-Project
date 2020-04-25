@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Jonathan's Website - Home</title>
+	  <link rel="stylesheet" href="./style.css" type="text/css">
+    </head>
+    <body>
+		<section>
+		    <h1 id="head-background"><a href="./Home.html">Jonathan's Weebsite</a></h1>
+		</section>
+		<nav>
+			<ul id="navbar">
+					<li><a class="active" href="./Home.html">Home</a></li>
+					<li><a href="./About Me.html">About Me</a></li>
+					<li><a href ="./Beatbox.html">Beatbox</a></li>
+					<li><a href="./Anime.html">Anime</a></li>
+					<li><a href="./Manga.html">Manga</a></li>
+			</ul>
+		<h2>Home</h2>
+		<img src="./Resources/Panda.png" alt="Panda Face" id="pandaface" width="256" height="160">
+		<iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLcT0ipK9lq9oPnewgHhKBX1-9PEGuESmz&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<!-- FORMS -->
+	    <section>
+	    <!-- Input Forms -->
+			<div>
+				<form>  
+				  <label for="username">Username</label>
+				  <input type="text" name="Username" id="username">
+				</form>
+
+
+				<form>
+				  <label for="password">Password</label>  
+				  <input type="password" name="Password" id="password">
+				</form>
+
+				<form>
+				  <label for="amount">Enter a Number:</label>
+				  <input type="number" name="amount" id="amount" scale="1">
+				</form>
+
+				<form>
+				  <label for="slider">Sliderrrrr</label>
+				  <input type="range" name="slider" id="slider" min="0" max="100" step="1">
+				</form>
+			</div>
+	<!-- CHECKBOXES -->
+			<div>
+			  <form>
+			 <p>Test checkboxes:</p>
+			 <input type="checkbox" name="yeet" id="yeet" value="yeet">
+				 <label for="yeet">YEET</label>
+			 <br>
+			 <input type="checkbox" name="yah" id="yah" value="yah">
+			 <label for="yah">YAH</label>
+			  </form>
+			</div>
+
+	<!-- RADIO BUTTONS -->
+			<div>
+				<br>
+				<h3>Radio Buttons(Yah or Yeet):</h3>
+				<form>
+				  <p>Test checkboxes:</p>
+				  <input type="radio" name="yeet" id="yeet1" value="yeet">
+					  <label for="yeet1">YEET</label>
+				  <br>
+				  <input type="radio" name="yeet" id="yah2" value="yah">
+				  <label for="yah2">YAH</label>
+				</form>
+			</div>
+
+	<!-- Dropdown list -->
+			<div>
+			 <br>
+			 <form action="Submissions.html" method="POST">
+				 <label for="drinks"> Test: Drinks</label>
+				 <select id="drinks" name="drinks">
+				   <option value="Coffee">Coffee</option>
+				   <option value="Water">Water</option>
+				   <option value="Tea">Tea</option>
+				   <option value="Sprite">Sprite</option>
+				   <option value="Coke">Coke</option>
+				   <option value="Lemonade">Lemonade</option>
+				   <option value="Beer">Beer</option>
+				 </select>
+			 </form>
+			</div>
+	<!-- Datalist Input -->
+			<div>
+			  <h3>Datalist</h3>
+			  <form>
+				 <label for="drink">Test: Drinks(Datalist)</label>
+				 <input type="text" list="datalistdrinks" id="drink" name="drink">
+
+			 <!-- list from above needs to match id below -->
+
+				 <datalist id="datalistdrinks">
+				   <option value="Coffee">Coffee</option>
+				   <option value="Water">Water</option>
+				   <option value="Tea">Tea</option>
+				   <option value="Sprite">Sprite</option>
+				   <option value="Coke">Coke</option>
+				   <option value="Lemonade">Lemonade</option>
+				   <option value="Beer">Beer</option>
+				 </datalist>
+			  </form>
+			</div>
+	    </section>
+	<!-- Tables -->
+	    <section>
+	  <!-- Test Table -->
+		    <div>
+			  <br>
+			  <h3>Testing Table</h3>
+				<table>
+				    <tr> <!-- Row 1 -->
+						<th></th>
+						<th>Saturday</th>
+						<th>Sunday</th>
+				    </tr>
+					<tr> <!-- Row 2 -->
+						<th>Morning</th>
+						<td rowspan="2">Work</td>
+						<td rowspan="2">Relax</td>
+					</tr>
+					<tr> <!-- Row 3 -->
+						<th>Afternoon</th>
+					</tr>
+					<tr> <!-- Row 4 -->
+						<th>Evening</th>
+						<td>Dinner</td>
+					</tr>
+					<tr>
+						<td colspan="2">Out of Town</td>
+						<td>Back in Town</td>
+					</tr>
+				</table>
+		    </div>
+	  </section>
+	<!-- Pic and Gif Test -->
+	    <section>
+		<!-- Pics Test -->
+			<div>
+				<br>
+				<figure>
+					<img src="./Resources/Tatsuya and Mayumi.png" width=480 height=275>
+					<figurecaption>Mahouka Koukou no Rettousei
+					</figurecaption>
+				</figure>
+			</div>
+			<!-- Gifs Test -->
+			<div>
+			<br>
+			<embed src="https://66.media.tumblr.com/tumblr_m08dvaN7NE1qea60lo1_500.gifv" width="500" height="250"/>
+		</div>
+	  </section>
+	  <!-- Footer -->
+	    <section>
+			<footer>
+				<h2>FOOOTER: JONATHAN'S WEBSITE</h2>
+			</footer>
+	    </section>
+	  </nav>
+  </body>
+</html>
